@@ -1,0 +1,153 @@
+body {
+    background: white;
+    color: #222;
+    font-family: "Arial",sans-serif;
+}
+
+html, body {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 16px 0 1em 0;
+}
+
+#topnav {
+    background-color: #eee;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    clear: none;
+    display: block;
+    float: right;
+    margin: 0 15.8% 0 0;
+    min-height: 2.5em;
+    padding: 0;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    width: 62%;
+}
+
+
+  	#column-left {
+    background: #f4f4f4;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    float: left;
+    min-width: 10em;
+    font-size: smaller;
+    margin: 0;
+    min-height: 860px;
+    text-align: center;
+    width: 20%;
+
+}
+
+.column-mid{
+ 	 width: 100px;
+ 	 
+}
+
+#column-right {
+    background: #f4f4f4;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    float: left;
+    min-width: 10em;
+    font-size: 70%;
+    line-height: 1.43em;
+    margin-top: -3.75em;
+    min-height: 850px;
+    padding: 5px 0;
+    text-align: center;
+    vertical-align: top;
+    width: 11%;
+}
+#column-mid{
+float: left;
+    margin: 2%;
+    padding: 0;
+    width: 62%;
+}
+
+.community {
+    float: left;
+    width: 33%;
+}
+
+.housing {
+    float: left;
+    padding: 0 4%;
+    width: 37%;
+}
+
+.jobs {
+    float: left;
+    padding: 0;
+    width: 22%;
+}
+
+.ban {
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+}
+
+#center .ban {
+    clear: both;
+}
+
+.col h4 {
+    margin-bottom: 3px;
+}
+
+.col ul {
+    background: #fff;
+    float: left;
+    font-size: smaller;
+    list-style: none;
+    padding-bottom: 1em;
+}
+
+.cats {
+    position: relative;
+}
+
+#rightbar #langlinks {
+    text-align: center;
+    padding: 8px;
+    font-size: small;
+}
+
+#rightbar ul {
+    margin: 4px;
+    list-style: none;
+}
+
+.global-header {
+    border-bottom: 1px #ccc solid;
+    background: #eee;
+    height: 100%;
+    line-height: 1.925em;
+    min-height: 1.1em;
+    padding: .3125em 0;
+    width: 100%;
+    z-index: 1003;
+}
